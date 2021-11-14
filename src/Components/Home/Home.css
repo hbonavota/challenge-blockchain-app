@@ -7,3 +7,35 @@
     font-size: calc(10px + 2vmin);
     color: white;
   }
+
+  .AppLogo {
+    height: 40vmin;
+    pointer-events: none;
+  
+  }
+  .buttonImg{
+    margin-top: 220px;
+    background-color:#282c34;
+    height: 50vmin;
+    width: 50vmin;
+    pointer-events: none;
+    border-radius: 25vmin;
+    cursor: pointer;
+    border-color: aqua;
+  }
+  
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .AppLogo {
+      animation: AppLogo-spin infinite 20s linear;
+    }
+  }
+  
+  @keyframes AppLogo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }

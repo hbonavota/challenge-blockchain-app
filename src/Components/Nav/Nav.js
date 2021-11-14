@@ -6,8 +6,8 @@ import React from 'react';
 export function Nav() {
     return (
   <nav className="Nav">
-        <button className="home"> Login Metamask </button>
-        <button className="home"> Login Google </button>
+        <button className="buttonLogin"> Metamask </button>
+        <button className="buttonLogin"> About </button>
   </nav>
     );
   }
