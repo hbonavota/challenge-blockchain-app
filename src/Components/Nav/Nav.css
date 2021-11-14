@@ -1,0 +1,32 @@
+.Nav {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    background: #1f212b;
+      position: fixed;
+      width: 100%;
+      box-shadow: 0 3px 5px 0 rgba(0,0,0,.2);
+  }
+  
+  .Nav .home {
+    border: none;
+    text-decoration: none !important;
+    width: 120px;
+    height: 40px;
+    margin: 20px;
+    border-radius: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    background: #007aff;
+    color: #ffffff;
+  }
+  
+  .Nav .home:hover {
+    border: none;
+    text-decoration: none !important;
+    background: #007bffde;
+  }
+  
+  .Nav .home:active {
+    font-size: 15px;
+  }
